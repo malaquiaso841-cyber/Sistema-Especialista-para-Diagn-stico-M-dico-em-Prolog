@@ -12,7 +12,7 @@ Prolog existe desde 1972 e tem padrão ISO ([ISO/IEC 13211](https://www.iso.org/
 Pequena, mas ativa: [fórum oficial da SWI-Prolog](https://swi-prolog.discourse.group/), [tag no Stack Overflow](https://stackoverflow.com/questions/tagged/prolog). Volume de conteúdo e bibliotecas de terceiros é muito menor do que em linguagens mainstream como Python.
 
 ## Perspectivas de adoção
-No [TIOBE Index](https://www.tiobe.com/tiobe-index/), Prolog fica tipicamente fora do top 20 (posição ~20-35, <1% de participação) — hoje é uma linguagem de nicho no mercado geral. Por outro lado, há interesse renovado com a IA **neuro-simbólica**, que busca unir aprendizado de máquina com raciocínio lógico explicável algo que modelos estatísticos puros não entregam.
+No [TIOBE Index](https://www.tiobe.com/tiobe-index/), Prolog fica tipicamente fora do top 20 (posição ~20-35, <1% de participação) hoje é uma linguagem de nicho no mercado geral. Por outro lado, há interesse renovado com a IA **neuro-simbólica**, que busca unir aprendizado de máquina com raciocínio lógico explicável algo que modelos estatísticos puros não entregam.
 
 ## Limitações
 - Curva de aprendizado alta (mudança de raciocínio imperativo → lógico)
