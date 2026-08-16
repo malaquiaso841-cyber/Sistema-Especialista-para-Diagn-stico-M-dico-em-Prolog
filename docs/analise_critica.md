@@ -1,7 +1,7 @@
 # Análise Crítica: Maturidade, Ecossistema e Perspectivas do Prolog
 
 ## Maturidade
-Prolog existe desde 1972 e tem padrão ISO ([ISO/IEC 13211](https://www.iso.org/standard/21413.html)). É uma linguagem tecnicamente madura e estável, mas que nunca teve adoção de mercado em massa — seu uso sempre foi concentrado em nichos de IA simbólica.
+Prolog existe desde 1972 e tem padrão ISO ([ISO/IEC 13211](https://www.iso.org/standard/21413.html)). É uma linguagem tecnicamente madura e estável, mas que nunca teve adoção de mercado em massa seu uso sempre foi concentrado em nichos de IA simbólica.
 
 ## Ecossistema e ferramentas
 - **[SWI-Prolog](https://www.swi-prolog.org/)**: implementação de referência, gratuita, com IDE, depurador, profiler e ambiente web interativo ([SWISH](https://swish.swi-prolog.org/)). É a que usamos neste trabalho.
@@ -12,7 +12,7 @@ Prolog existe desde 1972 e tem padrão ISO ([ISO/IEC 13211](https://www.iso.org/
 Pequena, mas ativa: [fórum oficial da SWI-Prolog](https://swi-prolog.discourse.group/), [tag no Stack Overflow](https://stackoverflow.com/questions/tagged/prolog). Volume de conteúdo e bibliotecas de terceiros é muito menor do que em linguagens mainstream como Python.
 
 ## Perspectivas de adoção
-No [TIOBE Index](https://www.tiobe.com/tiobe-index/), Prolog fica tipicamente fora do top 20 (posição ~20-35, <1% de participação) — hoje é uma linguagem de nicho no mercado geral. Por outro lado, há interesse renovado com a IA **neuro-simbólica**, que busca unir aprendizado de máquina com raciocínio lógico explicável — algo que modelos estatísticos puros não entregam.
+No [TIOBE Index](https://www.tiobe.com/tiobe-index/), Prolog fica tipicamente fora do top 20 (posição ~20-35, <1% de participação) — hoje é uma linguagem de nicho no mercado geral. Por outro lado, há interesse renovado com a IA **neuro-simbólica**, que busca unir aprendizado de máquina com raciocínio lógico explicável algo que modelos estatísticos puros não entregam.
 
 ## Limitações
 - Curva de aprendizado alta (mudança de raciocínio imperativo → lógico)
@@ -21,7 +21,7 @@ No [TIOBE Index](https://www.tiobe.com/tiobe-index/), Prolog fica tipicamente fo
 - Depuração pouco intuitiva por causa do backtracking automático
 
 ## Conclusão
-Prolog é maduro tecnicamente, tem ecossistema pequeno mas funcional e comunidade reduzida. Sua adoção geral é marginal, mas seu nicho — raciocínio explicável baseado em regras — continua tendo valor exatamente em casos como o nosso: um diagnóstico médico onde entender *por que* o sistema chegou àquela conclusão é tão importante quanto a conclusão em si.
+Prolog é maduro tecnicamente, tem ecossistema pequeno mas funcional e comunidade reduzida. Sua adoção geral é marginal, mas seu nicho raciocínio explicável baseado em regras continua tendo valor exatamente em casos como o nosso: um diagnóstico médico onde entender *por que* o sistema chegou àquela conclusão é tão importante quanto a conclusão em si.
 
 ## Fontes
 - [SWI-Prolog — Status and releases](https://www.swi-prolog.org/pldoc/man?section=status)
