@@ -316,14 +316,12 @@ Os principais pontos testados incluem:
 
 A documentação completa do projeto está disponível nos seguintes arquivos:
 
-### Pesquisa
-
-- [Contextualização histórica](docs/pesquisa/contextualizacao-historica.md);
-- [Fundamentos de Prolog](docs/pesquisa/fundamentos-prolog.md);
-- [Sistemas especialistas](docs/pesquisa/sistemas-especialistas.md);
-- [Referências](docs/pesquisa/referencias.md).
-
 ### Projeto
+
+- [Arquitetura](docs/projeto/arquitetura.md);
+- [Funcionamento](docs/projeto/funcionamento.md);
+- [Instalação e execução](docs/projeto/instalacao-execucao.md);
+- [Integração entre Python e Prolog](docs/projeto/integracao-python-prolog.md).
 
 ### Pesquisa
 
