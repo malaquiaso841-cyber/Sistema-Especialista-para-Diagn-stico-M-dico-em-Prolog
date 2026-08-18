@@ -1,0 +1,125 @@
+% =========================================================
+% Base de Conhecimento - Sistema de Diagnóstico por Sintomas
+% =========================================================
+
+% ---------------------------------------------------------
+% Fatos: doenca/1
+% ---------------------------------------------------------
+doenca(gripe).
+doenca(resfriado).
+doenca(covid19).
+doenca(sinusite).
+doenca(faringite).
+doenca(bronquite).
+doenca(pneumonia).
+doenca(asma).
+doenca(rinite_alergica).
+doenca(conjuntivite).
+doenca(gastroenterite).
+doenca(intoxicacao_alimentar).
+doenca(refluxo).
+doenca(gastrite).
+doenca(enxaqueca).
+doenca(hipertensao).
+doenca(diabetes).
+doenca(infeccao_urinaria).
+doenca(anemia).
+doenca(dengue).
+
+% ---------------------------------------------------------
+% Fatos: sintoma(Doenca, Sintoma, Peso, Obrigatorio)
+%
+% Peso: 1 (Genérico) a 5 (Muito Específico/Patognomônico)
+% Obrigatorio: sim (Condição eliminatória) / nao
+% ---------------------------------------------------------
+
+% gripe
+sintoma(gripe, febre, 3, nao).
+sintoma(gripe, calafrio, 2, nao).
+sintoma(gripe, dor_cabeca, 2, nao).
+sintoma(gripe, dor_muscular, 3, nao).
+sintoma(gripe, tosse, 2, nao).
+
+% resfriado
+sintoma(resfriado, espirro, 4, nao).
+sintoma(resfriado, coriza, 4, nao).
+sintoma(resfriado, dor_garganta, 3, nao).
+sintoma(resfriado, tosse, 2, nao).
+sintoma(resfriado, congestao_nasal, 3, nao).
+
+% covid19
+sintoma(covid19, febre, 2, nao).
+sintoma(covid19, tosse, 2, nao).
+sintoma(covid19, perda_olfato, 5, nao).      % Altamente específico
+sintoma(covid19, perda_paladar, 5, nao).     % Altamente específico
+sintoma(covid19, fadiga, 2, nao).
+
+% sinusite
+sintoma(sinusite, dor_cabeca, 3, nao).
+sintoma(sinusite, congestao_nasal, 4, nao).
+sintoma(sinusite, dor_facial, 5, sim).       % Sintoma chave
+sintoma(sinusite, coriza, 3, nao).
+sintoma(sinusite, febre, 2, nao).
+
+% faringite
+sintoma(faringite, dor_garganta, 5, sim).    % Sintoma chave
+sintoma(faringite, febre, 2, nao).
+sintoma(faringite, dificuldade_engolir, 4, nao).
+sintoma(faringite, ganglios_inchados, 4, nao).
+sintoma(faringite, tosse, 2, nao).
+
+% bronquite
+sintoma(bronquite, tosse, 4, sim).           % Sintoma chave
+sintoma(bronquite, chiado_peito, 4, nao).
+sintoma(bronquite, falta_ar, 3, nao).
+sintoma(bronquite, dor_peito, 2, nao).
+sintoma(bronquite, fadiga, 2, nao).
+
+% pneumonia
+sintoma(pneumonia, febre, 3, nao).
+sintoma(pneumonia, tosse, 3, nao).
+sintoma(pneumonia, falta_ar, 4, nao).
+sintoma(pneumonia, dor_peito, 4, nao).
+sintoma(pneumonia, calafrio, 3, nao).
+
+% asma
+sintoma(asma, falta_ar, 4, nao).
+sintoma(asma, chiado_peito, 5, sim).        % Sintoma chave
+sintoma(asma, tosse, 2, nao).
+sintoma(asma, aperto_peito, 3, nao).
+sintoma(asma, dificuldade_respirar, 4, nao).
+
+% rinite_alergica
+sintoma(rinite_alergica, espirro, 4, nao).
+sintoma(rinite_alergica, coriza, 4, nao).
+sintoma(rinite_alergica, coceira_olhos, 4, nao).
+sintoma(rinite_alergica, congestao_nasal, 3, nao).
+sintoma(rinite_alergica, coceira_nariz, 5, nao).
+
+% conjuntivite
+sintoma(conjuntivite, olho_vermelho, 5, sim).  % Sintoma chave
+sintoma(conjuntivite, coceira_olhos, 4, nao).
+sintoma(conjuntivite, lacrimejamento, 3, nao).
+sintoma(conjuntivite, secrecao_ocular, 4, nao).
+sintoma(conjuntivite, sensibilidade_luz, 3, nao).
+
+% gastroenterite
+sintoma(gastroenterite, diarreia, 5, nao).
+sintoma(gastroenterite, nausea, 3, nao).
+sintoma(gastroenterite, vomito, 4, nao).
+sintoma(gastroenterite, dor_abdominal, 3, nao).
+sintoma(gastroenterite, febre, 2, nao).
+
+% intoxicacao_alimentar
+sintoma(intoxicacao_alimentar, nausea, 3, nao).
+sintoma(intoxicacao_alimentar, vomito, 5, nao).
+sintoma(intoxicacao_alimentar, diarreia, 4, nao).
+sintoma(intoxicacao_alimentar, dor_abdominal, 3, nao).
+sintoma(intoxicacao_alimentar, calafrio, 2, nao).
+
+% refluxo
+sintoma(refluxo, azia, 5, sim).             % Sintoma chave
+sintoma(refluxo, dor_peito, 3, nao).
+sintoma(refluxo, regurgitacao, 5, nao).
+sintoma(refluxo, dificuldade_engolir, 3, nao).
+sintoma(refluxo, tosse, 1, nao
