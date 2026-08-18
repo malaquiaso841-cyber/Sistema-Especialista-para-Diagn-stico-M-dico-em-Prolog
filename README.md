@@ -324,10 +324,13 @@ A documentação completa do projeto está disponível nos seguintes arquivos:
 
 ### Projeto
 
-- [Arquitetura](docs/projeto/arquitetura.md);
-- [Funcionamento](docs/projeto/funcionamento.md);
-- [Instalação e execução](docs/projeto/instalacao-execucao.md);
-- [Integração entre Python e Prolog](docs/projeto/integracao-python-prolog.md).
+### Pesquisa
+
+- [Conceitos e paradigmas](docs/pesquisa/conceitos-paradigma.md);
+- [Contextualização histórica](docs/pesquisa/contextualizacao-historica.md);
+- [Pesquisa bibliográfica](docs/pesquisa/pesquisa-bibliografica.md);
+- [Sistemas especialistas](docs/pesquisa/sistemas-especialistas.md);
+- [Referências bibliográficas](docs/pesquisa/referencias.md).
 
 ### Análise
 
@@ -375,9 +378,8 @@ CUSTOMTKINTER. **CustomTkinter documentation**. Disponível em: <https://customt
 
 PYTHON SOFTWARE FOUNDATION. **Python documentation**. Disponível em: <https://docs.python.org/3/>. 
 
-> Adicione também os livros, artigos, vídeos, apostilas e páginas que foram realmente utilizados na pesquisa.
 
----
+As referências utilizadas na pesquisa e no desenvolvimento estão disponíveis em [Referências da pesquisa](docs/pesquisa/referencias.md).
 
 
 ---
