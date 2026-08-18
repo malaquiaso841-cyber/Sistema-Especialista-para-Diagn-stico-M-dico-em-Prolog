@@ -3,13 +3,14 @@
 ## Informações acadêmicas
 
 - **Instituição:** Universidade Federal do Cariri (UFCA)
-- **Curso:** [Nome do curso]
-- **Disciplina:** [Nome da disciplina]
-- **Professor:** [Nome completo do professor]
+- **Curso:** [Engenharia de software]
+- **Disciplina:** [Paradigmas de prgramação]
+- **Professor:** [Rafael Will Macedo de Araújo]
 - **Integrantes:**
   - [Malaquias de oliveira do nascimento]
   - [Dorian Dayvid Gomes Feitosa]
   - [José Luiz de Lima Mendes]
+  - [Pedro Igor Medeiros Cunha]
 - **Período:** [Semestre 3 | ano 2026]
 
 ---
