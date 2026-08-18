@@ -122,4 +122,53 @@ sintoma(refluxo, azia, 5, sim).             % Sintoma chave
 sintoma(refluxo, dor_peito, 3, nao).
 sintoma(refluxo, regurgitacao, 5, nao).
 sintoma(refluxo, dificuldade_engolir, 3, nao).
-sintoma(refluxo, tosse, 1, nao
+sintoma(refluxo, tosse, 1, nao).
+
+% gastrite
+sintoma(gastrite, dor_abdominal, 4, nao).
+sintoma(gastrite, nausea, 3, nao).
+sintoma(gastrite, azia, 5, sim).            % Sintoma chave
+sintoma(gastrite, perda_apetite, 2, nao).
+sintoma(gastrite, inchaco_abdominal, 3, nao).
+
+% enxaqueca
+sintoma(enxaqueca, dor_cabeca, 5, sim).      % Sintoma chave
+sintoma(enxaqueca, sensibilidade_luz, 4, nao).
+sintoma(enxaqueca, nausea, 3, nao).
+sintoma(enxaqueca, tontura, 2, nao).
+sintoma(enxaqueca, sensibilidade_som, 4, nao).
+
+% hipertensao
+sintoma(hipertensao, dor_cabeca, 2, nao).
+sintoma(hipertensao, tontura, 3, nao).
+sintoma(hipertensao, visao_turva, 4, nao).
+sintoma(hipertensao, dor_peito, 3, nao).
+sintoma(hipertensao, falta_ar, 2, nao).
+
+% diabetes
+sintoma(diabetes, sede_excessiva, 5, nao).
+sintoma(diabetes, fome_excessiva, 4, nao).
+sintoma(diabetes, fadiga, 2, nao).
+sintoma(diabetes, visao_turva, 3, nao).
+sintoma(diabetes, urinar_frequente, 5, nao).
+
+% infeccao_urinaria
+sintoma(infeccao_urinaria, urinar_frequente, 4, nao).
+sintoma(infeccao_urinaria, dor_urinar, 5, sim). % Sintoma chave
+sintoma(infeccao_urinaria, dor_abdominal, 2, nao).
+sintoma(infeccao_urinaria, febre, 2, nao).
+sintoma(infeccao_urinaria, urina_turva, 4, nao).
+
+% anemia
+sintoma(anemia, fadiga, 4, nao).
+sintoma(anemia, palidez, 5, nao).
+sintoma(anemia, tontura, 3, nao).
+sintoma(anemia, falta_ar, 2, nao).
+sintoma(anemia, dor_cabeca, 1, nao).
+
+% dengue
+sintoma(dengue, febre, 4, sim).              % Sintoma chave
+sintoma(dengue, dor_muscular, 3, nao).
+sintoma(dengue, dor_atras_olhos, 5, nao).
+sintoma(dengue, dor_cabeca, 2, nao).
+sintoma(dengue, manchas_pele, 4, nao).
